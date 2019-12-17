@@ -1,0 +1,6 @@
+framework module Pods_vip_video {
+  umbrella header "Pods-vip_video-umbrella.h"
+
+  export *
+  module * { export * }
+}

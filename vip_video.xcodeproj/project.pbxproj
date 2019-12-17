@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD684133C59CA7AABB60138A /* Pods_vip_video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511771084815875105E9B2CE /* Pods_vip_video.framework */; };
+		F46C3ABE23A78D4900340115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3ABD23A78D4900340115 /* AppDelegate.swift */; };
+		F46C3AC023A78D4900340115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3ABF23A78D4900340115 /* SceneDelegate.swift */; };
+		F46C3AC723A78D4C00340115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C3AC623A78D4C00340115 /* Assets.xcassets */; };
+		F46C3ACA23A78D4C00340115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C3AC823A78D4C00340115 /* LaunchScreen.storyboard */; };
+		F46C3AD223A78D6C00340115 /* YYURLDecodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3AD123A78D6C00340115 /* YYURLDecodeManager.swift */; };
+		F46C3AD423A78FD600340115 /* YYMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3AD323A78FD600340115 /* YYMainController.swift */; };
+		F46C3AD623A791E300340115 /* YYWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3AD523A791E300340115 /* YYWebController.swift */; };
+		F46C3AD923A7957E00340115 /* YYDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3AD823A7957E00340115 /* YYDefine.swift */; };
+		F4B7D98C23A8B37B00C31510 /* YYURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7D98B23A8B37B00C31510 /* YYURLProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FE077FD55ACDCD52FE9B5C2 /* Pods-vip_video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip_video.release.xcconfig"; path = "Target Support Files/Pods-vip_video/Pods-vip_video.release.xcconfig"; sourceTree = "<group>"; };
+		20E02FADD9D378961CB42ABE /* Pods-vip_video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip_video.debug.xcconfig"; path = "Target Support Files/Pods-vip_video/Pods-vip_video.debug.xcconfig"; sourceTree = "<group>"; };
+		511771084815875105E9B2CE /* Pods_vip_video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vip_video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46C3ABA23A78D4900340115 /* vip_video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vip_video.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46C3ABD23A78D4900340115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46C3ABF23A78D4900340115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F46C3AC623A78D4C00340115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46C3AC923A78D4C00340115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46C3ACB23A78D4C00340115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46C3AD123A78D6C00340115 /* YYURLDecodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYURLDecodeManager.swift; sourceTree = "<group>"; };
+		F46C3AD323A78FD600340115 /* YYMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYMainController.swift; sourceTree = "<group>"; };
+		F46C3AD523A791E300340115 /* YYWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYWebController.swift; sourceTree = "<group>"; };
+		F46C3AD823A7957E00340115 /* YYDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYDefine.swift; sourceTree = "<group>"; };
+		F4B7D98B23A8B37B00C31510 /* YYURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYURLProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46C3AB723A78D4900340115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD684133C59CA7AABB60138A /* Pods_vip_video.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23AEF7AF7DCDF6970172748B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				511771084815875105E9B2CE /* Pods_vip_video.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A310089D9C70BB6840FAF30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E02FADD9D378961CB42ABE /* Pods-vip_video.debug.xcconfig */,
+				0FE077FD55ACDCD52FE9B5C2 /* Pods-vip_video.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F46C3AB123A78D4900340115 = {
+			isa = PBXGroup;
+			children = (
+				F46C3ABC23A78D4900340115 /* vip_video */,
+				F46C3ABB23A78D4900340115 /* Products */,
+				9A310089D9C70BB6840FAF30 /* Pods */,
+				23AEF7AF7DCDF6970172748B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F46C3ABB23A78D4900340115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46C3ABA23A78D4900340115 /* vip_video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46C3ABC23A78D4900340115 /* vip_video */ = {
+			isa = PBXGroup;
+			children = (
+				F46C3ADB23A7987E00340115 /* Delegate */,
+				F46C3AD723A7956500340115 /* Const */,
+				F46C3ADA23A7987400340115 /* Manager */,
+				F46C3ADC23A7989100340115 /* Main */,
+				F46C3AC623A78D4C00340115 /* Assets.xcassets */,
+				F46C3AC823A78D4C00340115 /* LaunchScreen.storyboard */,
+				F46C3ACB23A78D4C00340115 /* Info.plist */,
+			);
+			path = vip_video;
+			sourceTree = "<group>";
+		};
+		F46C3AD723A7956500340115 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				F46C3AD823A7957E00340115 /* YYDefine.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		F46C3ADA23A7987400340115 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F46C3AD123A78D6C00340115 /* YYURLDecodeManager.swift */,
+				F4B7D98B23A8B37B00C31510 /* YYURLProtocol.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F46C3ADB23A7987E00340115 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F46C3ABD23A78D4900340115 /* AppDelegate.swift */,
+				F46C3ABF23A78D4900340115 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		F46C3ADC23A7989100340115 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F46C3AD523A791E300340115 /* YYWebController.swift */,
+				F46C3AD323A78FD600340115 /* YYMainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46C3AB923A78D4900340115 /* vip_video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46C3ACE23A78D4C00340115 /* Build configuration list for PBXNativeTarget "vip_video" */;
+			buildPhases = (
+				04B10F931C7E1CE88E04E416 /* [CP] Check Pods Manifest.lock */,
+				F46C3AB623A78D4900340115 /* Sources */,
+				F46C3AB723A78D4900340115 /* Frameworks */,
+				F46C3AB823A78D4900340115 /* Resources */,
+				1E7CC9472DFAF888A5B70C38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vip_video;
+			productName = vip_video;
+			productReference = F46C3ABA23A78D4900340115 /* vip_video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46C3AB223A78D4900340115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = YY;
+				TargetAttributes = {
+					F46C3AB923A78D4900340115 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F46C3AB523A78D4900340115 /* Build configuration list for PBXProject "vip_video" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46C3AB123A78D4900340115;
+			productRefGroup = F46C3ABB23A78D4900340115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46C3AB923A78D4900340115 /* vip_video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46C3AB823A78D4900340115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C3ACA23A78D4C00340115 /* LaunchScreen.storyboard in Resources */,
+				F46C3AC723A78D4C00340115 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B10F931C7E1CE88E04E416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vip_video-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E7CC9472DFAF888A5B70C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vip_video/Pods-vip_video-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vip_video/Pods-vip_video-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vip_video/Pods-vip_video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46C3AB623A78D4900340115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C3AD423A78FD600340115 /* YYMainController.swift in Sources */,
+				F46C3AD623A791E300340115 /* YYWebController.swift in Sources */,
+				F46C3ABE23A78D4900340115 /* AppDelegate.swift in Sources */,
+				F46C3AC023A78D4900340115 /* SceneDelegate.swift in Sources */,
+				F46C3AD923A7957E00340115 /* YYDefine.swift in Sources */,
+				F46C3AD223A78D6C00340115 /* YYURLDecodeManager.swift in Sources */,
+				F4B7D98C23A8B37B00C31510 /* YYURLProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46C3AC823A78D4C00340115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46C3AC923A78D4C00340115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46C3ACC23A78D4C00340115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46C3ACD23A78D4C00340115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46C3ACF23A78D4C00340115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E02FADD9D378961CB42ABE /* Pods-vip_video.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJWLHJJG53;
+				INFOPLIST_FILE = vip_video/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyyyy.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F46C3AD023A78D4C00340115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE077FD55ACDCD52FE9B5C2 /* Pods-vip_video.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJWLHJJG53;
+				INFOPLIST_FILE = vip_video/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyyyy.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46C3AB523A78D4900340115 /* Build configuration list for PBXProject "vip_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C3ACC23A78D4C00340115 /* Debug */,
+				F46C3ACD23A78D4C00340115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46C3ACE23A78D4C00340115 /* Build configuration list for PBXNativeTarget "vip_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C3ACF23A78D4C00340115 /* Debug */,
+				F46C3AD023A78D4C00340115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46C3AB223A78D4900340115 /* Project object */;
+}
