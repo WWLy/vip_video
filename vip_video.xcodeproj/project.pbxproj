@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DD684133C59CA7AABB60138A /* Pods_vip_video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511771084815875105E9B2CE /* Pods_vip_video.framework */; };
 		F46C3ABE23A78D4900340115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3ABD23A78D4900340115 /* AppDelegate.swift */; };
-		F46C3AC023A78D4900340115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3ABF23A78D4900340115 /* SceneDelegate.swift */; };
 		F46C3AC723A78D4C00340115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C3AC623A78D4C00340115 /* Assets.xcassets */; };
 		F46C3ACA23A78D4C00340115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C3AC823A78D4C00340115 /* LaunchScreen.storyboard */; };
 		F46C3AD223A78D6C00340115 /* YYURLDecodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C3AD123A78D6C00340115 /* YYURLDecodeManager.swift */; };
@@ -25,7 +24,6 @@
 		511771084815875105E9B2CE /* Pods_vip_video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vip_video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46C3ABA23A78D4900340115 /* vip_video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vip_video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46C3ABD23A78D4900340115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F46C3ABF23A78D4900340115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F46C3AC623A78D4C00340115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46C3AC923A78D4C00340115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F46C3ACB23A78D4C00340115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				F46C3ABD23A78D4900340115 /* AppDelegate.swift */,
-				F46C3ABF23A78D4900340115 /* SceneDelegate.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -249,7 +246,6 @@
 				F46C3AD423A78FD600340115 /* YYMainController.swift in Sources */,
 				F46C3AD623A791E300340115 /* YYWebController.swift in Sources */,
 				F46C3ABE23A78D4900340115 /* AppDelegate.swift in Sources */,
-				F46C3AC023A78D4900340115 /* SceneDelegate.swift in Sources */,
 				F46C3AD923A7957E00340115 /* YYDefine.swift in Sources */,
 				F46C3AD223A78D6C00340115 /* YYURLDecodeManager.swift in Sources */,
 				F4B7D98C23A8B37B00C31510 /* YYURLProtocol.swift in Sources */,
@@ -392,7 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJWLHJJG53;
 				INFOPLIST_FILE = vip_video/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,7 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJWLHJJG53;
 				INFOPLIST_FILE = vip_video/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

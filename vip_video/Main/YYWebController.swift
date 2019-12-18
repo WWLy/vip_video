@@ -18,13 +18,17 @@ class YYWebController: UIViewController {
     lazy var playButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("播放", for: .normal)
-        button.setTitleColor(UIColor(dynamicProvider: { (traitCollection) -> UIColor in
-            if traitCollection.userInterfaceStyle == UIUserInterfaceStyle.dark {
-                return CYColor(r: 255, g: 255, b: 255)
-            } else {
-                return CYColor(r: 15, g: 76, b: 129)
-            }
-        }), for: .normal)
+        if #available(iOS 13.0, *) {
+            button.setTitleColor(UIColor(dynamicProvider: { (traitCollection) -> UIColor in
+                if traitCollection.userInterfaceStyle == UIUserInterfaceStyle.dark {
+                    return CYColor(r: 255, g: 255, b: 255)
+                } else {
+                    return CYColor(r: 15, g: 76, b: 129)
+                }
+            }), for: .normal)
+        } else {
+            button.setTitleColor(CYColor(r: 15, g: 76, b: 129), for: .normal)
+        }
         button.contentMode = .scaleAspectFit
         button.addTarget(self, action: #selector(playButtonClick), for: .touchUpInside)
         self.navigationItem.setRightBarButton(UIBarButtonItem(customView: button), animated: true)
